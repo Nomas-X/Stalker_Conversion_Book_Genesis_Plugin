@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<qualities>
+	<!-- POSITIVE QUALITIES -->
+	<quality id="scb_ambidextrous" karma="4" type="POSITIVE">
+		<modifications>
+			<relevancemod topic="COMBAT"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_analytical_mind" karma="3" type="POSITIVE">
+		<requires>
+			<qualreq ref="attribute_mastery" negated="true"/>
+		</requires>
+		<modifications>
+			<edgemod skill="biotech" type="BONUS"/>
+			<edgemod skill="cracking" type="BONUS"/>
+			<edgemod skill="electronics" type="BONUS"/>
+			<edgemod skill="engineering" type="BONUS"/>
+			<edgemod skill="scb_medical" type="BONUS"/>
+		</modifications>
+	</quality>
+   
+	<quality id="scb_aptitude" karma="12" type="POSITIVE" select="SKILL">
+		<modifications>
+			<skillmod val="1" modType="MAX"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_artifact_affinity" karma="8" type="POSITIVE">
+		<modifications>
+			<edgemod skill="scb_artifacts" type="BONUS"/>
+		</modifications>
+	</quality>
+
+   <quality id="scb_artistic_talent" karma="4" type="POSITIVE" select="NAME"/>
+
+   <quality id="scb_blandness" karma="8" type="POSITIVE" />
+
+	<quality id="scb_built_tough" karma="4" type="POSITIVE" max="4">
+		<modifications>
+			<attrmod attr="PHYSICAL_MONITOR" val="1" type="AUGMENTED"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_catlike" karma="12" type="POSITIVE">
+		<modifications>
+			<edgemod skill="athletics" type="BONUS"/>
+		</modifications>
+	</quality>	
+
+	<quality id="scb_charismatic" karma="8" type="POSITIVE">
+		<modifications>
+			<edgemod skill="influence" type="BONUS"/>
+			<relevancemod topic="SOCIAL"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_exceptional_attribute" karma="12" type="POSITIVE" select="ATTRIBUTE" multi="true">
+		<modifications>
+			<attrmod val="1" type="MAX" />
+		</modifications>
+	</quality>
+
+	<quality id="scb_fake_papers" karma="8" type="POSITIVE">
+		<modifications>
+			<edgemod skill="con" type="BONUS"/>
+			<edgemod skill="scb_investigate" type="BONUS"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_first_impression" karma="12" type="POSITIVE">
+		<modifications>
+			<edgemod skill="con" type="BONUS"/>
+			<edgemod skill="influence" type="BONUS"/>
+			<relevancemod topic="SOCIAL"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_gearhead" karma="10" type="POSITIVE">
+		<modifications>
+			<edgemod skill="engineering" type="BONUS"/>
+		</modifications>
+	</quality>
+
+   <quality id="scb_guts" karma="12" type="POSITIVE" />
+
+	<quality id="high_pain_tolerance"  karma="7" type="POSITIVE">
+		<modifications>
+			<specrulemod ref="PAIN_TOLERANCE_HIGH" lvl="1"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_home_ground" karma="10" type="POSITIVE" multi="true" select="NAME">
+		<modifications>
+			<edgemod skill="scb_outdoors" type="BONUS"/>
+			<edgemod skill="perception" type="BONUS"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_indomitable" karma="12" type="POSITIVE">
+		<modifications>
+		<!-- NEEDS TESTING WITH AND WITHOUT -->
+		</modifications>
+	</quality>
+
+	<quality id="scb_juryrigger" karma="12" type="POSITIVE">
+		<modifications>
+			<edgemod skill="engineering" type="BONUS"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_medical_education" karma="8" type="POSITIVE">
+		<modifications>
+			<edgemod skill="scb_medical" type="BONUS"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_multilingual" karma="12" type="POSITIVE" select="NAME"/>
+
+	<quality id="scb_night_eyes" karma="15" type="POSITIVE"/>
+
+	<quality id="scb_photographic_memory"  karma="12" type="POSITIVE">
+		<modifications>
+			<edgemod attr="MEMORY" type="BONUS"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_trained_pilot" karma="12" type="POSITIVE">
+		<modifications>
+			<edgemod skill="piloting" type="BONUS"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_quick_healer" karma="8" type="POSITIVE"/>
+
+	<quality id="scb_quick_reflexes" karma="12" type="POSITIVE">
+		<modifications>
+			<attrmod attr="INITIATIVE_PHYSICAL" val="3"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_quick_scavenger" karma="10" type="POSITIVE">
+		<modifications>
+			<edgemod skill="scb_outdoors" type="BONUS"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_resistance_to_pathogens" karma="12" type="POSITIVE"/>
+
+	<quality id="scb_silent_hunter" karma="8" type="POSITIVE">
+		<modifications>
+			<edgemod skill="stealth" type="BONUS"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_stalkers_luck" karma="15" type="POSITIVE"/>
+
+	<quality id="scb_toughness" karma="12" type="POSITIVE" >
+		<modifications>
+			<edgemod attr="DEFENSIVE_POOL" type="BONUS"/>
+			<relevancemod topic="COMBAT"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_toxin_resistance"	karma="12" type="POSITIVE">
+		<modifications>
+			<edgemod attr="DEFENSIVE_POOL_RESIST_TOXIN_DAMAGE" type="BONUS"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_will_to_live" karma="8" type="POSITIVE" max="3">
+		<modifications>
+			<attrmod attr="DAMAGE_OVERFLOW" val="1" />
+		</modifications>
+	</quality>
+
+	<quality id="scb_zone_cartographer" karma="12" type="POSITIVE">
+		<modifications>
+			<edgemod skill="scb_outdoors" type="BONUS"/>
+		</modifications>
+	</quality>
+	
+	<!-- NEGATIVE QUALITIES -->
+	<quality id="scb_addiction" karma="2" type="NEGATIVE" max="6" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_common_mild" karma="11" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_common_moderate" karma="14" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_common_severe" karma="17" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_common_extreme" karma="20" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_seasonal_mild" karma="8" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_seasonal_moderate" karma="11" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_seasonal_severe" karma="14" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_seasonal_extreme" karma="17" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_uncommon_mild" karma="5" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_uncommon_moderate" karma="8" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_uncommon_severe" karma="11" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_uncommon_extreme" karma="14" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_rare_mild" karma="2" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_rare_moderate" karma="5" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_rare_severe" karma="8" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_allergy_rare_extreme" karma="11" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_bad_luck" karma="10" type="NEGATIVE"/>
+
+	<quality id="scb_bad_rep" karma="8" type="NEGATIVE">
+		<modifications>
+			<relevancemod topic="SOCIAL"/>
+			<edgemod skill="influence"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_combat_paralysis" karma="8" type="NEGATIVE">
+		<modifications>
+			<relevancemod topic="COMBAT"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_debilitating_phobia" karma="4" type="NEGATIVE" select="NAME"/>
+
+	<quality id="scb_dependents" karma="4" type="NEGATIVE" max="3" select="NAME"/>
+
+	<quality id="scb_distinctive_style" karma="6" type="NEGATIVE"/>
+
+	<quality id="scb_glass_jaw" karma="4" type="NEGATIVE" max="6">
+		<modifications>
+			<attrmod attr="STUN_MONITOR" val="-1" type="AUGMENTED"/>
+		</modifications>
+	</quality>
+
+   <quality id="scb_gremlins" karma="6" type="NEGATIVE"/>
+
+   <quality id="scb_haunted_past" karma="4" type="NEGATIVE"/>
+
+   <quality id="scb_honorbound" karma="10" type="NEGATIVE" select="NAME"/>
+
+	<quality id="scb_impaired" karma="8" type="NEGATIVE" select="ATTRIBUTE" multi="true" max="8">
+		<modifications>
+			<attrmod val="-1" type="MAX" />
+		</modifications>
+	</quality>
+
+	<quality id="scb_incompetent" karma="10" type="NEGATIVE" select="SKILL">
+		<modifications>
+			<forbidmod/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_in_debt" karma="0" type="NEGATIVE" select="NAME">
+		<modifications>
+			<specrulemod ref="IN_DEBT"/>
+		</modifications>
+	</quality>
+	
+	<quality id="scb_insomnia" karma="4" type="NEGATIVE"/>
+
+	<quality id="scb_invasive_dreams" karma="8" type="NEGATIVE"/>
+
+	<quality id="scb_legal_trouble" karma="8" type="NEGATIVE"/>
+	
+	<quality id="scb_loss_confidence" karma="6" type="NEGATIVE"/>
+
+	<quality id="scb_low_pain_tolerance" karma="10" type="NEGATIVE">
+		<modifications>
+			<specrulemod ref="PAIN_TOLERANCE_LOW"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_marked_by_the_zone" karma="6" type="NEGATIVE"/>
+
+	<quality id="scb_paranoia" karma="5" type="NEGATIVE"/>
+
+	<quality id="scb_prejudiced" karma="8" type="NEGATIVE" multi="true" select="NAME"/>
+
+	<quality id="scb_radiation_sensitivity" karma="8" type="NEGATIVE" max="2"/>
+
+	<quality id="scb_social_stress" karma="8" type="NEGATIVE">
+		<modifications>
+			<edgemod skill="con"/>
+			<edgemod skill="influence"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_uncouth" karma="6" type="NEGATIVE">
+		<modifications>
+			<edgemod skill="con" type="USAGE"/>
+			<edgemod skill="influence" type="USAGE"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_uneducated" karma="6" type="NEGATIVE">
+		<modifications>
+			<edgemod skill="biotech" type="USAGE"/>
+			<edgemod skill="cracking" type="USAGE"/>
+			<edgemod skill="electronics" type="USAGE"/>
+			<edgemod skill="engineering" type="USAGE"/>
+		</modifications>
+	</quality>	
+
+	<quality id="scb_unsteady_hands" karma="6" type="NEGATIVE">
+		<modifications>
+			<edgemod skill="athletics" type="USAGE"/>
+			<edgemod skill="close_combat" type="USAGE"/>
+			<edgemod skill="scb_exotic_weapons" type="USAGE"/>
+			<edgemod skill="scb_firearms" type="USAGE"/>
+			<edgemod skill="stealth" type="USAGE"/>
+		</modifications>
+	</quality>
+
+	<quality id="scb_weak_immune_system" karma="8" type="NEGATIVE"/>
+
+	<quality id="scb_zone_corruption" karma="6" type="NEGATIVE">
+		<modifications>
+			<edgemod skill="perception" type="USAGE"/>
+		</modifications>
+	</quality>
+</qualities>

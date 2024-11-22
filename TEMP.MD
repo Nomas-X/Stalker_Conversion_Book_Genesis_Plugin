@@ -1,0 +1,144 @@
+# List of items/gear to add to the system so far:
+## Firearms:
+- Pistols:
+ - ====Taser Cartridge====
+ - Taser[X]
+ - ====9x18 Caliber====
+ - [Fort-12](https://stalker.fandom.com/wiki/Fort-12Mk2)[X]
+ - [PB/6P9](https://stalker.fandom.com/wiki/Noiseless_Pistol_(PB1s))[X]
+ - [Makarov PM](https://stalker.fandom.com/wiki/PMm)[X]
+ - ====9x19 Caliber====
+ - [Walther P99](https://stalker.fandom.com/wiki/Walker_P9m)[X]
+ - [Beretta 92F](https://stalker.fandom.com/wiki/Martha)[X]
+ - [Browning Hi-Power](https://stalker.fandom.com/wiki/HPSS-1m)[X]
+ - [Glock 17](https://en.wikipedia.org/wiki/Glock)[X]
+ - [SIG Sauer P226](https://en.wikipedia.org/wiki/SIG_Sauer_P226)[X]
+ - [CZ 75](https://en.wikipedia.org/wiki/CZ_75)[X]
+ - [MP-443 Grach](https://en.wikipedia.org/wiki/MP-443_Grach)[X]
+ - ====.45 ACP Caliber====
+ - [IMI Desert Eagle](https://stalker.fandom.com/wiki/Black_Kite)[X]
+ - [Colt M1911](https://stalker.fandom.com/wiki/Kora-919)[X]
+ - [SIG P220](https://stalker.fandom.com/wiki/SIP-t_M200)[X]
+ - [H&K USP Compact](https://stalker.fandom.com/wiki/UDP_Compact)[X]
+ - ===357. Caliber====
+ - [Colt Single Action Army](https://en.wikipedia.org/wiki/Colt_Single_Action_Army)[X]
+ - [Smith & Wesson Model 686](https://en.wikipedia.org/wiki/Smith_%26_Wesson_Model_686)[X]
+ - [Colt Python](https://en.wikipedia.org/wiki/Colt_Python)[X]
+ - [Ruger GP100](https://en.wikipedia.org/wiki/Ruger_GP100)[X]
+- Submachine Guns:
+ - ====9x18 Caliber====
+ - [PP-91 KEDR](https://en.wikipedia.org/wiki/PP-91_Kedr)[X]
+ - [PP-19 Bizon](https://tr.wikipedia.org/wiki/PP-19_Bizon)[X]
+ - ====9x19 Caliber====
+ - [H&K MP5](https://stalker.fandom.com/wiki/Viper_5)[X]
+ - [PP-19 Vityaz](https://en.wikipedia.org/wiki/PP-19-01_Vityaz)[X]
+ - [PP-2000](https://en.wikipedia.org/wiki/PP-2000)[X]
+ - ====.45 Caliber====
+ - [MAC-10](https://en.wikipedia.org/wiki/MAC-10)[X]
+ - [Frasier / UMP](https://stalker.fandom.com/wiki/Frasier)[X]
+- Shotguns:
+ - ====Double Barreled====
+ - [TOZ-66](https://stalker.fandom.com/wiki/Sawn-off_Double-barrel)
+ - [TOZ-34](https://stalker.fandom.com/wiki/TOZ_34_Hunting_rifle)
+ - ====Combat Shotguns====
+ - [Mossberg Maverick 88](https://stalker.fandom.com/wiki/Chaser_13)[X]
+ - [Franchi SPAS-12](https://stalker.fandom.com/wiki/SPSA14)[X]
+ - [Armsel Striker/Protecta](https://stalker.fandom.com/wiki/Eliminator)[X]
+ - [Mossberg 500](https://en.wikipedia.org/wiki/Mossberg_500)[X]
+ - [Mossberg 500 Swad-off](https://en.wikipedia.org/wiki/Mossberg_500)[X]
+ - [Benelli M4](https://en.wikipedia.org/wiki/Benelli_M4)[X]
+ - [Saiga-12](https://en.wikipedia.org/wiki/Saiga-12)[X]
+ - [MTs255](https://en.wikipedia.org/wiki/MTs255)[X]
+ - [Vepr-12](https://en.wikipedia.org/wiki/Vepr-12)[X]
+ - [Baikal MP-153](https://en.wikipedia.org/wiki/Baikal_MP-153)[X]
+- Assault Rifles:
+ - ====5.45 Caliber====
+ - [AKS-74](https://stalker.fandom.com/wiki/Akm_74/2)[X]
+ - [AKS-74U](https://stalker.fandom.com/wiki/Akm_74/2U)[X]
+ - [AK-74](https://en.wikipedia.org/wiki/AK-74)[X]
+ - [AN-94](https://stalker.fandom.com/wiki/Obokan)[X]
+  - ====5.56 Caliber====
+ - [FN F2000](https://stalker.fandom.com/wiki/FT_200M)[X]
+ - [H&K G36](https://stalker.fandom.com/wiki/GP_37)[X]
+ - [Enfield L85A1](https://stalker.fandom.com/wiki/IL_86)[X]
+ - [SIG SG-550](https://stalker.fandom.com/wiki/SGI_5k)[X]
+ - [Z&M LR300](https://stalker.fandom.com/wiki/TRs_301)[X]
+ - [M16A2](https://en.wikipedia.org/wiki/M16_rifle)[X]
+ - [M16A4](https://en.wikipedia.org/wiki/M16_rifle)[X]
+ - [Steyr AUG A1](https://en.wikipedia.org/wiki/Steyr_AUG)[X]
+ - [Steyr AUG A2](https://en.wikipedia.org/wiki/Steyr_AUG)[X]
+ - ====9x39 Caliber====
+ - [OTs-14 Groza](https://stalker.fandom.com/wiki/Tunder_S14)[X]
+ - [AS VAL](https://stalker.fandom.com/wiki/VLA_Special_Assault_Rifle)[X]
+ - ====7.62x39 Caliber====
+ - [AKM](https://stalker.fandom.com/wiki/Trophy_AKM-47/2)[X]
+ - ====7.62x51 Caliber====
+ - [M1 Garand](https://en.wikipedia.org/wiki/M1_Garand)[X]
+ - [FN FAL](https://en.wikipedia.org/wiki/FN_FAL)[X]
+- Marksman Rifles:
+ - ====9x39 Caliber====
+ - [VSS Vintorez](https://stalker.fandom.com/wiki/Vintar_BC)[X]
+ - ====7.62x39 Caliber====
+ - [SKS](https://en.wikipedia.org/wiki/SKS)[X]
+ - ====7.62x51 Caliber====
+ - [M14](https://en.wikipedia.org/wiki/M14_rifle)[X]
+ - [Heckler & Koch G3](https://en.wikipedia.org/wiki/Heckler_%26_Koch_G3)[X]
+ - ====7.62x54 Caliber====
+ - [Mosin–Nagant](https://en.wikipedia.org/wiki/Mosin–Nagant)[X]
+ - [SVT-40](https://en.wikipedia.org/wiki/SVT-40)[X]
+ - [SVD](https://stalker.fandom.com/wiki/SVDm-2)[X]
+ - [SVU](https://stalker.fandom.com/wiki/SVUmk2)[X]
+- Sniper Rifles:
+ - ====7.62x54 Caliber====
+ - [SV-98](https://en.wikipedia.org/wiki/SV-98)[X]
+ - ====308. Winchester====
+ - [Remington Model 700](https://en.wikipedia.org/wiki/Remington_Model_700)[X]
+ - [Accuracy International Arctic Warfare](https://en.wikipedia.org/wiki/Accuracy_International_Arctic_Warfare)[X]
+ - ====.50 BMG====
+ - [Barrett M82](https://en.wikipedia.org/wiki/Barrett_M82)[X]
+ - ====.408 Cheyenne Tactical====
+ - [CheyTac Intervention](https://en.wikipedia.org/wiki/CheyTac_Intervention)[X]
+- Machine Guns:
+ - ====5.45 Caliber====
+ - [RPK-74](https://en.wikipedia.org/wiki/RPK#RPK-74)[X]
+ - ====5.56 Caliber====
+ - [M249 light machine gun](https://en.wikipedia.org/wiki/M249_light_machine_gun)[X]
+ - ====7.62x39 Caliber====
+ - [RPK](https://en.wikipedia.org/wiki/RPK#RPK)[X]
+ - ====7.62x51 Caliber====
+ - [M60](https://en.wikipedia.org/wiki/M60_machine_gun)[X]
+ - [MG 3 machine gun](https://en.wikipedia.org/wiki/MG_3_machine_gun)[X]
+ - ====7.62x54 Caliber====
+ - [PKM](https://en.wikipedia.org/wiki/PK_machine_gun)[X]
+ - [DP](https://en.wikipedia.org/wiki/Degtyaryov_machine_gun)[X]
+
+## Grenades:
+- Explosive Grenades:
+ - [F1 Grenade](https://stalker.fandom.com/wiki/F1_grenade)
+ - [RGD-5 Grenade](https://stalker.fandom.com/wiki/RGD-5_Grenade)
+ - [M67 Grenade](https://en.wikipedia.org/wiki/M67_grenade)
+- Smoke Grenades:
+ - [RGD-2 Smoke Grenade](https://en.wikipedia.org/wiki/RDG-2)
+ - [M18 Smoke Grenade](https://en.wikipedia.org/wiki/M18_smoke_grenade)
+- Non-Lethal Grenades:
+ - Stun Grenade
+ - Flashbang Grenade
+ - CS Gas Grenade
+
+## Exotic Weapons
+- Launchers:
+ - [RG-6](https://stalker.fandom.com/wiki/Bulldog_6)
+ - [RPG-26](https://en.wikipedia.org/wiki/RPG-26)
+ - [RShG-2](https://en.wikipedia.org/wiki/RPG-26#Variants)
+ - [RPG-7](https://stalker.fandom.com/wiki/RPG-7u)
+ - [9K38 Igla](https://en.wikipedia.org/wiki/9K38_Igla)
+- Energy Weapons:
+ - [Gauss rifle](https://stalker.fandom.com/wiki/Gauss_Rifle)
+- Spray Weapons:
+ - Flamethrower
+- Other:
+ - [DShK](https://en.wikipedia.org/wiki/DShK)
+ - [NSV](https://en.wikipedia.org/wiki/NSV_machine_gun)
+ - [Kord](https://en.wikipedia.org/wiki/Kord_machine_gun)
+ - [SPG-9](https://en.wikipedia.org/wiki/SPG-9)
+ - [2B14 Podnos](https://en.wikipedia.org/wiki/2B14_Podnos)
