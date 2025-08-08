@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+	<!-- Eyeware -->
+   <item avail="2" cost="1000" id="cybereye1" >
+      <useas type="CYBERWARE" subtype="CYBER_EYEWARE" ess="0.1"/>
+      <modifications>
+         <itemhookmod capacity="1" hook="CYBEREYE_IMPLANT"/>
+         <accessorymod hook="CYBEREYE_IMPLANT" item="image_link" included="true"/>
+         <accessorymod hook="CYBEREYE_IMPLANT" item="camera" included="true"/>
+      </modifications>
+   </item>
+   
+    <!-- Bodyware --> 
+   <item avail="8I" cost="500000" id="scb_exo_skeleton">
+      <useas type="CYBERWARE" subtype="CYBER_BODYWARE" ess="0.2" />
+      <modifications>
+         <attrmod attr="DAMAGE_RESISTANCE" val="2"/>
+         <attrmod attr="MELEE_DAMAGE" val="2"/>
+         <attrmod attr="ATTACK_RATING" val="2"/>
+		 <attrmod attr="DEFENSE_RATING" type="NATURAL" val="10"/>
+         <attrmod attr="AGILITY"  type="AUGMENTED" val="-1"/>
+         <attrmod attr="STRENGTH"  type="AUGMENTED" val="+2"/>
+         <dmgtypemod type="PHYSICAL"/>
+      </modifications>
+   </item>
+
+	<!-- Cyberlimbs --> 
+   <item avail="4" cost="15000" id="scb_prosthetic_limb">
+      <useas type="CYBERWARE" subtype="CYBER_LIMBS" ess="1.0" />
+      <modifications>
+         <attrmod attr="AGILITY"  type="AUGMENTED" val="-1"/>
+         <attrmod attr="STRENGTH" type="AUGMENTED" val="-1"/>
+      </modifications>
+   </item>
+
+</items>

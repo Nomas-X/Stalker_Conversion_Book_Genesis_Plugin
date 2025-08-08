@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+   <!-- Taser -->
+   <item id="scb_taser" avail="2" cost="340">
+      <useas type="WEAPON_FIREARMS" subtype="TASERS"/>
+      <modifications>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5S(e)" attack="10,6,,," mode="SS" ammo="2(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- FN Five-seven -->
+   <item id="scb_fn_five_seven" avail="4L" cost="950">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_LIGHT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="UNDER"/>
+         <itemhookmod hook="TOP"/>
+      </modifications>
+      <weapon dmg="2P" attack="9,9,8,," mode="SS/SA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Fort-12 -->
+   <item id="scb_fort_12" avail="3L" cost="600">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_LIGHT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+      </modifications>
+      <weapon dmg="2P" attack="10,9,6,," mode="SS/SA" ammo="12(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Stechkin -->
+   <item id="scb_stechkin" avail="4L" cost="800">
+      <useas type="WEAPON_FIREARMS" subtype="MACHINE_PISTOLS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+      </modifications>
+      <weapon dmg="2P" attack="9,10,8,," mode="SS/SA/BF/FA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Makarov PM -->
+   <item id="scb_makarov_pm" avail="3L" cost="400">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_LIGHT"/>
+      <modifications/>
+      <weapon dmg="2P" attack="9,8,6,," mode="SS/SA" ammo="8(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- PB -->
+   <item id="scb_pb" avail="3I" cost="700">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_LIGHT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+		 <accessorymod hook="BARREL" item="scb_suppressor_eastern_pistol" included="true"/>
+      </modifications>
+      <weapon dmg="2P" attack="9,9,6,," mode="SS/SA" ammo="8(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Beretta 92F -->
+   <item id="scb_beretta_92f" avail="3L" cost="900">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_LIGHT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+      </modifications>
+      <weapon dmg="2P" attack="10,9,7,," mode="SS/SA" ammo="15(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Beretta 93R -->
+   <item id="scb_beretta_93r" avail="4L" cost="1500">
+      <useas type="WEAPON_FIREARMS" subtype="MACHINE_PISTOLS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+      </modifications>
+      <weapon dmg="2P" attack="10,9,7,," mode="SS/SA/BF" ammo="22(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Browning Hi-Power -->
+   <item id="scb_browning_hi_power" avail="3L" cost="650">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_LIGHT"/>
+      <modifications/>
+      <weapon dmg="2P" attack="9,9,7,," mode="SS/SA" ammo="13(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- CZ 75 -->
+   <item id="scb_cz_75" avail="3L" cost="750">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_LIGHT"/>
+      <modifications/>
+      <weapon dmg="2P" attack="10,9,6,," mode="SS/SA" ammo="10(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Glock 17 -->
+   <item id="scb_glock_17" avail="4L" cost="3100">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_LIGHT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="2P" attack="10,10,7,," mode="SS/SA" ammo="17(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Glock 18 -->
+   <item id="scb_glock_18" avail="6L" cost="5000">
+      <useas type="WEAPON_FIREARMS" subtype="MACHINE_PISTOLS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="2P" attack="10,10,7,," mode="SS/SA/BF/FA" ammo="33(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- MP-443 Grach -->
+   <item id="scb_mp443_grach" avail="3L" cost="900">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_LIGHT"/>
+      <modifications>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="2P" attack="10,9,6,," mode="SS/SA" ammo="17(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- SIG Sauer P226 -->
+   <item id="scb_sig_sauer_p226" avail="4L" cost="1000">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_LIGHT"/>
+      <modifications/>
+      <weapon dmg="2P" attack="10,9,8,," mode="SS/SA" ammo="15(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Walther P99 -->
+   <item id="scb_walther_p99" avail="3L" cost="1200">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_LIGHT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="2P" attack="10,10,7,," mode="SS/SA" ammo="15(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Colt M1911 -->
+   <item id="scb_colt_m1911" avail="3L" cost="900">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_HEAVY"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+      </modifications>
+      <weapon dmg="3P" attack="10,9,7,," mode="SS/SA" ammo="7(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- H&K USP Compact -->
+   <item id="scb_hk_usp_compact" avail="4L" cost="1500">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_HEAVY"/>
+      <modifications>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="3P" attack="12,8,6,," mode="SS/SA" ammo="12(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- SIG Sauer P220 -->
+   <item id="scb_sig_sauer_p220" avail="4L" cost="1200">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_HEAVY"/>
+      <modifications/>
+      <weapon dmg="3P" attack="10,9,7,," mode="SS/SA" ammo="10(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Desert Eagle -->
+   <item id="scb_desert_eagle" avail="5L" cost="2500">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_HEAVY"/>
+      <modifications/>
+      <weapon dmg="4P" attack="8,10,7,," mode="SS/SA" ammo="9(c)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Colt Python -->
+   <item id="scb_colt_python" avail="4L" cost="1650">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_HEAVY"/>
+      <modifications/>
+      <weapon dmg="4P" attack="8,11,8,," mode="SS/SA" ammo="6(cy)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Colt Single Action Army -->
+   <item id="scb_colt_single_action_army" avail="4L" cost="2700">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_HEAVY"/>
+      <modifications/>
+      <weapon dmg="4P" attack="7,12,7,," mode="SS/SA" ammo="6(cy)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- Ruger GP100 -->
+   <item id="scb_ruger_gp100" avail="4L" cost="1500">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_HEAVY"/>
+      <modifications/>
+      <weapon dmg="4P" attack="8,10,8,," mode="SS/SA" ammo="6(cy)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- S&W Model 686 -->
+   <item id="scb_sw_model_686" avail="4L" cost="1500">
+      <useas type="WEAPON_FIREARMS" subtype="PISTOLS_HEAVY"/>
+      <modifications/>
+      <weapon dmg="4P" attack="8,10,8,," mode="SS/SA" ammo="6(cy)" skill="scb_firearms" spec="scb_firearms/scb_pistols" nowifi="true"/>
+   </item>
+
+   <!-- FN P90 -->
+   <item id="scb_fn_p90" avail="6L" cost="6500">
+      <useas type="WEAPON_FIREARMS" subtype="SUBMACHINE_GUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+      </modifications>
+      <weapon dmg="2P" attack="10,12,8,," mode="SS/SA/BF/FA" ammo="50(c)" skill="scb_firearms" spec="scb_firearms/scb_submachine_guns" nowifi="true"/>
+   </item>
+
+   <!-- PP-19 Bizon -->
+   <item id="scb_pp19_bizon" avail="4L" cost="3500">
+      <useas type="WEAPON_FIREARMS" subtype="SUBMACHINE_GUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+      </modifications>
+      <weapon dmg="2P" attack="9,11,6,," mode="SS/SA/BF/FA" ammo="64(c)" skill="scb_firearms" spec="scb_firearms/scb_submachine_guns" nowifi="true"/>
+   </item>
+
+   <!-- PP-91 Kedr -->
+   <item id="scb_pp91_kedr" avail="3L" cost="1500">
+      <useas type="WEAPON_FIREARMS" subtype="SUBMACHINE_GUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+      </modifications>
+      <weapon dmg="2P" attack="9,10,6,," mode="SS/SA/BF/FA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_submachine_guns" nowifi="true"/>
+   </item>
+
+   <!-- H&K MP5 -->
+   <item id="scb_hk_mp5" avail="3L" cost="3000">
+      <useas type="WEAPON_FIREARMS" subtype="SUBMACHINE_GUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="2P" attack="10,11,8,," mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_submachine_guns" nowifi="true"/>
+   </item>
+
+   <!-- PP-19 Vityaz -->
+   <item id="scb_pp19_vityaz" avail="4L" cost="3500">
+      <useas type="WEAPON_FIREARMS" subtype="SUBMACHINE_GUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="2P" attack="10,11,8,," mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_submachine_guns" nowifi="true"/>
+   </item>
+
+   <!-- PP-2000 -->
+   <item id="scb_pp2000" avail="4L" cost="3500">
+      <useas type="WEAPON_FIREARMS" subtype="SUBMACHINE_GUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="2P" attack="11,10,6,," mode="SS/SA/BF/FA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_submachine_guns" nowifi="true"/>
+   </item>
+
+   <!-- MAC-10 -->
+   <item id="scb_mac10" avail="3L" cost="3600">
+      <useas type="WEAPON_FIREARMS" subtype="SUBMACHINE_GUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+      </modifications>
+      <weapon dmg="3P" attack="11,9,6,," mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_submachine_guns" nowifi="true"/>
+   </item>
+
+   <!-- H&K UMP -->
+   <item id="scb_hk_ump" avail="4L" cost="5500">
+      <useas type="WEAPON_FIREARMS" subtype="SUBMACHINE_GUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="3P" attack="10,11,8,," mode="SS/SA/BF/FA" ammo="25(c)" skill="scb_firearms" spec="scb_firearms/scb_submachine_guns" nowifi="true"/>
+   </item>
+
+   <!-- Armsel Protecta -->
+   <item id="scb_armsel_protecta" avail="6L" cost="9000">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+      </modifications>
+      <weapon dmg="4P" attack="7,10,6,," mode="SS" ammo="12(m)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- Armsel Striker -->
+   <item id="scb_armsel_striker" avail="6I" cost="12000">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+      </modifications>
+      <weapon dmg="4P" attack="7,10,6,," mode="SS/SA" ammo="12(m)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- Baikal MP-153 -->
+   <item id="scb_baikal_mp153" avail="4L" cost="17000">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5P" attack="4,11,7,," mode="SS/SA" ammo="4+1(m)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- Benelli M4 -->
+   <item id="scb_benelli_m4" avail="8I" cost="47000">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5P" attack="4,12,8,," mode="SS/SA" ammo="7+1(m)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- Franchi SPAS-12 -->
+   <item id="scb_franchi_spas12" avail="5I" cost="7300">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="5,10,6,," mode="SS/SA" ammo="7+1(m)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- IZh-81 -->
+   <item id="scb_izh81" avail="3L" cost="1900">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,10,5,," mode="SS" ammo="4+1(m)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- Mossberg 500 -->
+   <item id="scb_mossberg_500" avail="4L" cost="4100">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,10,6,," mode="SS" ammo="6+1(m)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- Mossberg 500 Shorty -->
+   <item id="scb_mossberg_500_shorty" avail="4L" cost="2900">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="3P" attack="9,8,4,," mode="SS" ammo="6+1(m)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- Maverick 88 -->
+   <item id="scb_maverick_88" avail="4L" cost="3400">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,10,6,," mode="SS" ammo="5+1(m)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- Maverick 88 Shorty -->
+   <item id="scb_maverick_88_shorty" avail="4L" cost="2000">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="3P" attack="9,8,4,," mode="SS" ammo="5+1(m)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- MTs255 -->
+   <item id="scb_mts255" avail="4L" cost="4300">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,9,6,," mode="SS/SA" ammo="5(cy)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- Saiga-12 -->
+   <item id="scb_saiga12" avail="6I" cost="21000">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,11,7,," mode="SS/SA/BF/FA" ammo="8(c)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- TOZ-34 -->
+   <item id="scb_toz34" avail="3L" cost="1200">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="STOCK"/>
+      </modifications>
+      <weapon dmg="4P" attack="3,12,8,," mode="SS/SA" ammo="2(a)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- TOZ-34 Sawed-Off -->
+   <item id="scb_toz34_sawed" avail="3L" cost="800">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications/>
+      <weapon dmg="3P" attack="7,8,4,," mode="SS/SA" ammo="2(a)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- TOZ-BM -->
+   <item id="scb_toz_bm" avail="2L" cost="300">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="STOCK"/>
+      </modifications>
+      <weapon dmg="4P" attack="3,9,7,," mode="SS/SA" ammo="2(a)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- TOZ-BM Sawed-Off -->
+   <item id="scb_toz_bm_sawed" avail="2L" cost="200">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications/>
+      <weapon dmg="3P" attack="7,8,4,," mode="SS/SA" ammo="2(a)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+   <!-- Vepr-12 -->
+   <item id="scb_vepr12" avail="5I" cost="18300">
+      <useas type="WEAPON_FIREARMS" subtype="SHOTGUNS"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,11,7,," mode="SS/SA" ammo="8(c)" skill="scb_firearms" spec="scb_firearms/scb_shotguns" nowifi="true"/>
+   </item>
+
+    <!-- AS VAL -->
+   <item id="scb_as_val" avail="5I" cost="9000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="BARREL" item="scb_suppressor_eastern_rifle" included="true"/>
+      </modifications>
+      <weapon dmg="3P" attack="5,10,8,6,1" mode="SS/SA/BF/FA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- OTs-14 Groza -->
+   <item id="scb_ots14_groza" avail="6L" cost="10000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="3P" attack="4,10,9,6,1" mode="SS/SA/BF/FA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- AK-74 -->
+   <item id="scb_ak74" avail="4L" cost="4700">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,10,10,7,2" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- AKS-74 -->
+   <item id="scb_aks74" avail="4L" cost="4000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,10,9,7,1" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- AKS-74U -->
+   <item id="scb_aks74u" avail="4L" cost="3750">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+      </modifications>
+      <weapon dmg="4P" attack="5,11,8,6,1" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- AN-94 -->
+   <item id="scb_an94" avail="8L" cost="6000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,11,10,7,1" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- FN F2000 -->
+   <item id="scb_fn_f2000" avail="7I" cost="21000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="TOP" item="scb_near_medium_sights" included="true"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,11,10,8,2" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- H&K G36 -->
+   <item id="scb_hk_g36" avail="4L" cost="18000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="TOP" item="scb_near_medium_sights" included="true"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,10,9,7,2" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- LR-300 -->
+   <item id="scb_lr300" avail="6I" cost="5500">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,10,10,7,1" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- M16A2 -->
+   <item id="scb_m16a2" avail="5I" cost="5000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,10,10,7,2" mode="SS/SA/BF" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- M16A4 -->
+   <item id="scb_m16a4" avail="5I" cost="5700">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,10,10,8,2" mode="SS/SA/BF" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- M4A1 -->
+   <item id="scb_m4a1" avail="6I" cost="6500">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,10,10,7,1" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- SA80 -->
+   <item id="scb_sa80" avail="4I" cost="5000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="3,11,10,6,1" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- SIG SG-550 -->
+   <item id="scb_sig_sg550" avail="4I" cost="7500">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="3,11,10,8,3" mode="SS/SA/BF/FA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- Steyr AUG A1 -->
+   <item id="scb_steyr_aug_a1" avail="5I" cost="7000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="TOP" item="scb_near_medium_sights" included="true"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,11,10,7,2" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- Steyr AUG A2 -->
+   <item id="scb_steyr_aug_a2" avail="5I" cost="7500">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,11,10,7,2" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- AKM -->
+   <item id="scb_akm" avail="4L" cost="4000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="4,9,10,7,1" mode="SS/SA/BF/FA" ammo="30(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- SKS -->
+   <item id="scb_sks" avail="4L" cost="2750">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="4P" attack="3,9,9,6,2" mode="SS/SA" ammo="10(m)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- FN FAL -->
+   <item id="scb_fn_fal" avail="4L" cost="8000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5P" attack="3,10,11,8,3" mode="SS/SA/BF/FA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- H&K G3 -->
+   <item id="scb_hk_g3" avail="4L" cost="8500">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5P" attack="3,9,10,9,4" mode="SS/SA/BF/FA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- M1 Garand -->
+   <item id="scb_m1_garand" avail="5L" cost="5100">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_ASSAULT"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5P" attack="3,11,10,8,4" mode="SS/SA" ammo="8(m)" skill="scb_firearms" spec="scb_firearms/scb_assault_rifles" nowifi="true"/>
+   </item>
+
+   <!-- VSS Vintorez -->
+   <item id="scb_vss_vintorez" avail="5I" cost="11000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_HUNTING"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="BARREL" item="scb_suppressor_eastern_marksman" included="true"/>
+      </modifications>
+      <weapon dmg="3P" attack="5,11,9,6,1" mode="SS/SA/BF/FA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_marksman_rifles" nowifi="true"/>
+   </item>
+
+   <!-- VSK-94 -->
+   <item id="scb_vsk94" avail="5I" cost="9500">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_HUNTING"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="BARREL" item="scb_suppressor_eastern_marksman" included="true"/>
+      </modifications>
+      <weapon dmg="3P" attack="5,10,8,5,1" mode="SS/SA/BF/FA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_marksman_rifles" nowifi="true"/>
+   </item>
+
+   <!-- M14 -->
+   <item id="scb_m14" avail="4I" cost="9000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_HUNTING"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5P" attack="4,10,11,8,4" mode="SS/SA/BF/FA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_marksman_rifles" nowifi="true"/>
+   </item>
+
+   <!-- SR-25 -->
+   <item id="scb_sr25" avail="8I" cost="57000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_HUNTING"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5P" attack="3,9,11,10,6" mode="SS/SA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_marksman_rifles" nowifi="true"/>
+   </item>
+
+   <!-- Mosin-Nagant -->
+   <item id="scb_mosin_nagant" avail="4L" cost="2000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_HUNTING"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5P" attack="4,10,10,8,2" mode="SS" ammo="5(m)" skill="scb_firearms" spec="scb_firearms/scb_marksman_rifles" nowifi="true"/>
+   </item>
+
+   <!-- SVD -->
+   <item id="scb_svd" avail="6I" cost="15500">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_HUNTING"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5P" attack="3,8,11,9,5" mode="SS/SA" ammo="10(c)" skill="scb_firearms" spec="scb_firearms/scb_marksman_rifles" nowifi="true"/>
+   </item>
+
+   <!-- SVU -->
+   <item id="scb_svu" avail="8I" cost="17500">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_HUNTING"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5P" attack="4,11,11,8,3" mode="SS/SA" ammo="20(c)" skill="scb_firearms" spec="scb_firearms/scb_marksman_rifles" nowifi="true"/>
+   </item>
+
+   <!-- SV-98 -->
+   <item id="scb_sv98" avail="8I" cost="56500">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_SNIPER"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="UNDER" item="scb_bipod_sniper" included="true"/>
+      </modifications>
+      <weapon dmg="5P" attack="2,8,10,12,11" mode="SS" ammo="10(c)" skill="scb_firearms" spec="scb_firearms/scb_sniper_rifles" nowifi="true"/>
+   </item>
+
+   <!-- Accuracy International Arctic Warfare -->
+   <item id="scb_ai_arctic_warfare" avail="8I" cost="68500">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_SNIPER"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="UNDER" item="scb_bipod_sniper" included="true"/>
+      </modifications>
+      <weapon dmg="5P" attack="2,8,10,13,12" mode="SS" ammo="10(c)" skill="scb_firearms" spec="scb_firearms/scb_sniper_rifles" nowifi="true"/>
+   </item>
+
+   <!-- Remington Model 700 -->
+   <item id="scb_remington_700" avail="7I" cost="48200">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_SNIPER"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="5P" attack="3,9,10,10,10" mode="SS" ammo="6(m)" skill="scb_firearms" spec="scb_firearms/scb_sniper_rifles" nowifi="true"/>
+   </item>
+
+   <!-- CheyTac Intervention -->
+   <item id="scb_cheytac_intervention" avail="9I" cost="96000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_SNIPER"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="6P" attack="1,7,11,14,14" mode="SS" ammo="7(c)" skill="scb_firearms" spec="scb_firearms/scb_sniper_rifles" nowifi="true"/>
+   </item>
+
+   <!-- Barrett M82 -->
+   <item id="scb_barrett_m82" avail="9I" cost="157000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_SNIPER"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="STOCK" item="scb_shock_pad" included="true"/>
+		 <accessorymod hook="UNDER" item="scb_bipod_sniper" included="true"/>
+      </modifications>
+      <weapon dmg="6P" attack="1,8,11,16,14" mode="SS/SA" ammo="5(c)" skill="scb_firearms" spec="scb_firearms/scb_sniper_rifles" nowifi="true"/>
+   </item>
+
+   <!-- Denel NTW-20 -->
+   <item id="scb_denel_ntw20" avail="9I" cost="215000">
+      <useas type="WEAPON_FIREARMS" subtype="RIFLE_SNIPER"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="STOCK" item="scb_shock_pad" included="true"/>
+		 <accessorymod hook="UNDER" item="scb_bipod_sniper" included="true"/>
+      </modifications>
+      <weapon dmg="8P" attack="1,6,10,16,14" mode="SS" ammo="3(c)" skill="scb_firearms" spec="scb_firearms/scb_sniper_rifles" nowifi="true"/>
+   </item>
+
+   <!-- RPK-74 -->
+   <item id="scb_rpk74" avail="4L" cost="7500">
+      <useas type="WEAPON_FIREARMS" subtype="LMG"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="UNDER" item="scb_bipod_mg" included="true"/>
+      </modifications>
+      <weapon dmg="4P" attack="2,9,11,8,4" mode="SS/SA/BF/FA" ammo="45(c)" skill="scb_firearms" spec="scb_firearms/scb_machine_guns" nowifi="true"/>
+   </item>
+
+   <!-- M249 -->
+   <item id="scb_m249" avail="7I" cost="36800">
+      <useas type="WEAPON_FIREARMS" subtype="LMG"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="UNDER" item="scb_bipod_mg" included="true"/>
+      </modifications>
+      <weapon dmg="4P" attack="2,11,12,8,4" mode="BF/FA" ammo="100(b)" skill="scb_firearms" spec="scb_firearms/scb_machine_guns" nowifi="true"/>
+   </item>
+
+   <!-- RPK -->
+   <item id="scb_rpk" avail="4L" cost="7500">
+      <useas type="WEAPON_FIREARMS" subtype="LMG"/>
+      <modifications>
+         <itemhookmod hook="BARREL"/>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="UNDER" item="scb_bipod_mg" included="true"/>
+      </modifications>
+      <weapon dmg="4P" attack="2,9,11,8,3" mode="SS/SA/BF/FA" ammo="70(c)" skill="scb_firearms" spec="scb_firearms/scb_machine_guns" nowifi="true"/>
+   </item>
+
+   <!-- M60 -->
+   <item id="scb_m60" avail="5I" cost="13100">
+      <useas type="WEAPON_FIREARMS" subtype="MMG"/>
+      <modifications>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="UNDER" item="scb_bipod_mg" included="true"/>
+      </modifications>
+      <weapon dmg="5P" attack="1,10,11,7,6" mode="BF/FA" ammo="100(b)" skill="scb_firearms" spec="scb_firearms/scb_machine_guns" nowifi="true"/>
+   </item>
+
+   <!-- MG 3 -->
+   <item id="scb_mg3" avail="6I" cost="21000">
+      <useas type="WEAPON_FIREARMS" subtype="MMG"/>
+      <modifications>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="UNDER" item="scb_bipod_mg" included="true"/>
+      </modifications>
+      <weapon dmg="5P" attack="1,9,12,8,7" mode="BF/FA" ammo="100(b)" skill="scb_firearms" spec="scb_firearms/scb_machine_guns" nowifi="true"/>
+   </item>
+
+   <!-- PKM -->
+   <item id="scb_pkm" avail="5I" cost="25500">
+      <useas type="WEAPON_FIREARMS" subtype="MMG"/>
+      <modifications>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="UNDER" item="scb_bipod_mg" included="true"/>
+      </modifications>
+      <weapon dmg="5P" attack="1,10,12,8,7" mode="BF/FA" ammo="100(b)" skill="scb_firearms" spec="scb_firearms/scb_machine_guns" nowifi="true"/>
+   </item>
+
+   <!-- DPM -->
+   <item id="scb_dpm" avail="4L" cost="6000">
+      <useas type="WEAPON_FIREARMS" subtype="LMG"/>
+      <modifications>
+         <itemhookmod hook="STOCK"/>
+         <itemhookmod hook="UNDER"/>
+		 <accessorymod hook="UNDER" item="scb_bipod_mg" included="true"/>
+      </modifications>
+      <weapon dmg="5P" attack="1,9,11,7,3" mode="BF/FA" ammo="47(c)" skill="scb_firearms" spec="scb_firearms/scb_machine_guns" nowifi="true"/>
+   </item>
+
+   <!-- H&K AG36 -->
+   <item id="scb_hk_ag36" avail="5I" cost="3500">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications/>
+      <weapon dmg="0P" attack=",10,6,3," mode="SS" ammo="1(m)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- GL1 -->
+   <item id="scb_gl1" avail="7I" cost="5600">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications/>
+      <weapon dmg="0P" attack=",10,6,3," mode="SS" ammo="1(m)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- M203 -->
+   <item id="scb_m203" avail="6I" cost="3250">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications/>
+      <weapon dmg="0P" attack=",10,6,3," mode="SS" ammo="1(m)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- Milkor MGL -->
+   <item id="scb_milkor_mgl" avail="8I" cost="31000">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="0P" attack=",8,9,6,4" mode="SS/SA" ammo="6(cy)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- GP-25 Kostyor -->
+   <item id="scb_gp25_kostyor" avail="5I" cost="2500">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications/>
+      <weapon dmg="0P" attack=",10,6,4," mode="SS" ammo="1(m)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- RG-6 -->
+   <item id="scb_rg6" avail="8I" cost="20000">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications/>
+      <weapon dmg="0P" attack=",8,9,5,3" mode="SS/SA" ammo="6(cy)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- RGM-40 Kastet -->
+   <item id="scb_rgm40_kastet" avail="6I" cost="9000">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications/>
+      <weapon dmg="0P" attack=",8,9,4,1" mode="SS" ammo="1(m)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- GM-94 -->
+   <item id="scb_gm94" avail="6I" cost="11000">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications/>
+      <weapon dmg="0P" attack=",9,7,4,1" mode="SS" ammo="3(m)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- 9K38 Igla -->
+   <item id="scb_9k38_igla" avail="9I" cost="0">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications/>
+      <weapon dmg="0P" attack=",5,9,10,8" mode="SS" ammo="1(ml)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- RPG-26 -->
+   <item id="scb_rpg26" avail="8I" cost="13300">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications/>
+      <weapon dmg="0P" attack=",3,8,9," mode="SS" ammo="1(m)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- RShG-2 -->
+   <item id="scb_rshg2" avail="8I" cost="13300">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications/>
+      <weapon dmg="0P" attack=",3,8,9," mode="SS" ammo="1(m)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- RPG-7 -->
+   <item id="scb_rpg7" avail="8I" cost="26000">
+      <useas type="WEAPON_SPECIAL" subtype="LAUNCHERS"/>
+      <modifications>
+         <itemhookmod hook="TOP"/>
+      </modifications>
+      <weapon dmg="0P" attack=",4,10,9,6" mode="SS" ammo="1(z)" skill="exotic_weapons" spec="exotic_weapons/launchers" nowifi="true"/>
+   </item>
+
+   <!-- M134 Minigun -->
+   <item id="scb_m134_minigun" avail="9I" cost="0">
+      <useas type="WEAPON_FIREARMS" subtype="HMG"/>
+      <modifications/>
+      <weapon dmg="5P" attack="1,8,16,16,5" mode="BF/FA" ammo="500(b)" skill="scb_firearms" spec="scb_firearms/scb_machine_guns" nowifi="true"/>
+   </item>
+
+   <!-- DShKM -->
+   <item id="scb_dshkm" avail="8I" cost="0">
+      <useas type="WEAPON_FIREARMS" subtype="HMG"/>
+      <modifications/>
+      <weapon dmg="6P" attack="1,8,12,16,16" mode="BF/FA" ammo="50(b)" skill="scb_firearms" spec="scb_firearms/scb_machine_guns" nowifi="true"/>
+   </item>
+
+   <!-- Kord -->
+   <item id="scb_kord" avail="8I" cost="0">
+      <useas type="WEAPON_FIREARMS" subtype="HMG"/>
+      <modifications/>
+      <weapon dmg="6P" attack="1,8,12,16,16" mode="BF/FA" ammo="50(b)" skill="scb_firearms" spec="scb_firearms/scb_machine_guns" nowifi="true"/>
+   </item>
+
+   <!-- NSV -->
+   <item id="scb_nsv" avail="8I" cost="0">
+      <useas type="WEAPON_FIREARMS" subtype="HMG"/>
+      <modifications/>
+      <weapon dmg="6P" attack="1,8,12,16,16" mode="BF/FA" ammo="50(b)" skill="scb_firearms" spec="scb_firearms/scb_machine_guns" nowifi="true"/>
+   </item>
+
+   <!-- Flame Thrower -->
+   <item id="scb_flame_thrower" avail="8I" cost="0">
+      <useas type="WEAPON_SPECIAL" subtype="THROWERS"/>
+      <modifications/>
+      <weapon dmg="5P" attack="14,12,10,," mode="SS" ammo="5(m)" skill="exotic_weapons" spec="exotic_weapons/spray" nowifi="true"/>
+   </item>
+
+   <!-- Gauss Rifle -->
+   <item id="scb_gauss_rifle" avail="9I" cost="0">
+      <useas type="WEAPON_SPECIAL" subtype="OTHER_SPECIAL"/>
+      <modifications>
+         <itemhookmod hook="TOP"/>
+         <itemhookmod hook="UNDER"/>
+      </modifications>
+      <weapon dmg="7P" attack="3,9,10,10,10" mode="SS" ammo="10(c)" skill="exotic_weapons" spec="exotic_weapons/emitter" nowifi="true"/>
+   </item>
+</items>

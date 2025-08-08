@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+	<item id="scb_ammo_taser" cost="10" avail="1" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="TASERS" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_57x28" cost="12" avail="5" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="HOLDOUTS,PISTOLS_LIGHT,MACHINE_PISTOLS" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_9x18" cost="5" avail="2" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="HOLDOUTS,PISTOLS_LIGHT,MACHINE_PISTOLS" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_9x19" cost="7" avail="3" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="HOLDOUTS,PISTOLS_LIGHT,MACHINE_PISTOLS" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_9x39" cost="10" avail="4" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="PISTOLS_HEAVY,SUBMACHINE_GUNS" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_45acp" cost="10" avail="4" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="PISTOLS_HEAVY,SUBMACHINE_GUNS" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_357mag" cost="12" avail="5" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="PISTOLS_HEAVY" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_12gauge" cost="15" avail="2" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="SHOTGUNS" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_545x39" cost="20" avail="3" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="RIFLE_ASSAULT,RIFLE_HUNTING" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_556x45" cost="25" avail="4" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="RIFLE_ASSAULT,RIFLE_HUNTING" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_762x39" cost="20" avail="3" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="RIFLE_ASSAULT,RIFLE_HUNTING" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_762x51" cost="35" avail="5" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="RIFLE_ASSAULT,RIFLE_HUNTING,RIFLE_SNIPER" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_762x54r" cost="50" avail="4" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="RIFLE_ASSAULT,RIFLE_HUNTING,RIFLE_SNIPER" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_308win" cost="70" avail="7" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="RIFLE_HUNTING,RIFLE_SNIPER" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_408ct" cost="2000" avail="8" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="RIFLE_SNIPER" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_50bmg" cost="2500" avail="8" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="RIFLE_SNIPER,HMG" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_127x108" cost="500" avail="8" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="RIFLE_SNIPER,HMG" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_20x82" cost="5000" avail="8" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="ASSAULT_CANNON" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_gauss_battery" cost="0" avail="9" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="OTHER_SPECIAL" />
+		</requires>
+	</item>
+
+	<item id="scb_ammo_gas_canister" cost="80" avail="2" choice="AMMUNITION_TYPE" count="y">
+		<useas type="AMMUNITION" subtype="AMMUNITION" />
+		<requires>
+			<itemsubtypereq type="OTHER_SPECIAL" />
+		</requires>
+	</item>
+
+	<!-- 40×46mm Grenade Launcher Rounds -->
+	<item avail="5" cost="300" id="scb_grenade_40x46_frag" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo gz="16P" close="12P" near="8P" blast="20" />
+	</item>
+	<item avail="5" cost="150" id="scb_grenade_40x46_smoke" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo />
+	</item>
+	<item avail="5" cost="150" id="scb_grenade_40x46_flare" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo />
+	</item>
+
+	<!-- 40mm Caseless Grenade Launcher Rounds -->
+	<item avail="5" cost="155" id="scb_grenade_40mm_caseless_frag" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo gz="16P" close="12P" near="8P" blast="20" />
+	</item>
+	<item avail="5" cost="100" id="scb_grenade_40mm_caseless_smoke" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo />
+	</item>
+	<item avail="5" cost="100" id="scb_grenade_40mm_caseless_flare" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo />
+	</item>
+
+	<!-- 43×30mm Grenade Launcher Rounds -->
+	<item avail="5" cost="170" id="scb_grenade_43x30_frag" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo gz="16P" close="12P" near="8P" blast="20" />
+	</item>
+	<item avail="5" cost="115" id="scb_grenade_43x30_smoke" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo />
+	</item>
+	<item avail="5" cost="115" id="scb_grenade_43x30_flare" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo />
+	</item>
+
+	<!-- RPG Rockets -->
+	<item avail="8I" cost="2000" id="scb_rocket_pg7v" count="y">
+		<useas type="AMMUNITION" subtype="ROCKETS" />
+		<ammo gz="16P" close="12P" near="8P" blast="15" />
+	</item>
+	<item avail="8I" cost="2100" id="scb_rocket_og7v" count="y">
+		<useas type="AMMUNITION" subtype="ROCKETS" />
+		<ammo gz="12P" close="8P" near="4P" blast="10" />
+	</item>
+	<item avail="8I" cost="2500" id="scb_rocket_tbg7v" count="y">
+		<useas type="AMMUNITION" subtype="ROCKETS" />
+		<ammo gz="16P" close="10P" near="4P" blast="20" />
+	</item>
+
+	<!-- Missiles -->
+	<item avail="9I" cost="0" id="scb_missile_9m39" rate="y" maxrat="1" ratemul="BASEPRICE" count="y">
+		<useas type="AMMUNITION" subtype="MISSILES" cost="2800"/>
+		<ammo gz="12P" close="8P" near="4P" blast="10" />
+		<modifications>
+			<itemattrmod attr="ATTACK_RATING" val="2"/>
+		</modifications>
+	</item>
+
+	<!-- Hand Grenades -->
+	<item avail="5" cost="300" id="scb_grenade_f1" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo gz="16P" close="12P" near="8P" blast="20" />
+	</item>
+	<item avail="5" cost="200" id="scb_grenade_rgd5" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo gz="16P" close="10P" near="4P" blast="15" />
+	</item>
+	<item avail="3" cost="90" id="scb_grenade_rgd2_smoke" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo />
+	</item>
+	<item avail="4" cost="135" id="scb_grenade_m18_smoke" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo />
+	</item>
+	<item avail="6" cost="165" id="scb_grenade_zarya3_stun" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo gz="10S" close="8S" near="6S" blast="15" />
+	</item>
+	<item avail="6" cost="175" id="scb_grenade_m84_stun" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo gz="10S" close="8S" near="6S" blast="15" />
+	</item>
+	<item avail="5" cost="150" id="scb_grenade_k51_gas" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo />
+	</item>
+	<item avail="5" cost="170" id="scb_grenade_m7a3_gas" count="y">
+		<useas type="AMMUNITION" subtype="GRENADES" />
+		<ammo />
+	</item>
+
+	<!-- Explosive Packages based on CSV data -->
+	<item avail="4I" id="scb_conventional_explosive_packages" rate="y" maxrat="20" ratemul="PRICE" count="y" cost="0">
+		<useas type="AMMUNITION" subtype="EXPLOSIVES" />
+		<pricetable>100,200,300,1000,1250,1500,3500,4000,4500,10000,11000,12000,26000,28000,30000,48000,51000,54000,95000,100000</pricetable>
+		<ammo />
+	</item>
+
+	<item avail="4I" id="scb_plastic_explosive_packages" rate="y" maxrat="20" ratemul="PRICE" count="y" cost="0">
+		<useas type="AMMUNITION" subtype="EXPLOSIVES" />
+		<pricetable>100,200,300,1000,1250,1500,3500,4000,4500,10000,11000,12000,26000,28000,30000,48000,51000,54000,95000,100000</pricetable>
+		<ammo />
+	</item>
+
+	<item avail="4I" id="scb_foam_explosive_packages" rate="y" maxrat="20" ratemul="PRICE" count="y" cost="0">
+		<useas type="AMMUNITION" subtype="EXPLOSIVES" />
+		<pricetable>100,200,300,1000,1250,1500,3500,4000,4500,10000,11000,12000,26000,28000,30000,48000,51000,54000,95000,100000</pricetable>
+		<ammo />
+	</item>
+
+	<!-- Detonator Device -->
+	<item avail="5I" id="scb_detonator_device" count="y" cost="1000">
+		<useas type="AMMUNITION" subtype="EXPLOSIVES" />
+		<ammo />
+	</item>
+
+	<!-- Detonator Cap (updated to match CSV pricing) -->
+	<item avail="5I" id="scb_detonator_cap" count="y" cost="250">
+		<useas type="AMMUNITION" subtype="EXPLOSIVES" />
+		<ammo />
+	</item>
+</items>

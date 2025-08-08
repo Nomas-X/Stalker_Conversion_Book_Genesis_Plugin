@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <skills>
 	<skill id="scb_firearms"  attr="AGILITY" type="COMBAT" untr="y">
-		<skillspec id="scb_pistols" subtypes="TASERS,HOLDOUTS,PISTOLS_LIGHT,PISTOLS_HEAV"/>
-		<skillspec id="scb_submachine_guns" subtypes="MACHINE_PISTOLS,SUBMACHINE_GUNS"/>
+		<skillspec id="scb_pistols" subtypes="TASERS,HOLDOUTS,PISTOLS_LIGHT,PISTOLS_HEAVY,MACHINE_PISTOLS"/>
+		<skillspec id="scb_submachine_guns" subtypes="SUBMACHINE_GUNS"/>
 		<skillspec id="scb_shotguns" subtypes="SHOTGUNS"/>
 		<skillspec id="scb_assault_rifles" subtypes="RIFLE_ASSAULT"/>
 		<skillspec id="scb_marksman_rifles" subtypes="RIFLE_HUNTING"/>
 		<skillspec id="scb_sniper_rifles" subtypes="RIFLE_SNIPER"/>
 		<skillspec id="scb_machine_guns" subtypes="LMG,MMG,HMG"/>
-
 	</skill>
 
 	<skill id="scb_zone_knowledge"  attr="INTUITION" type="TECHNICAL" untr="n">
