@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 	<!-- Eyeware -->
-   <item avail="2" cost="1000" id="cybereye1" >
+   <item avail="4" cost="5000" id="scb_glass_eye" >
       <useas type="CYBERWARE" subtype="CYBER_EYEWARE" ess="0.1"/>
       <modifications>
-         <itemhookmod capacity="1" hook="CYBEREYE_IMPLANT"/>
-         <accessorymod hook="CYBEREYE_IMPLANT" item="image_link" included="true"/>
-         <accessorymod hook="CYBEREYE_IMPLANT" item="camera" included="true"/>
+         <attrmod attr="BODY"  type="AUGMENTED" val="-1"/>
+         <attrmod attr="REACTION" type="AUGMENTED" val="-1"/>
       </modifications>
    </item>
    
